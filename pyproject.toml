@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "iris_trainer_mlotfi"
+version = "0.0.1"
+authors = [
+  { name="Majid Lotfi", email="majid.lotfi.1988@gmail.com" },
+]
+description = "Very simple example"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kappanful/iris_trainer"
+"Bug Tracker" = "https://github.com/kappanful/iris_trainer/issues"
